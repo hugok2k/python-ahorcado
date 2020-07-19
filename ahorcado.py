@@ -29,7 +29,7 @@ def randomWords():
     global wordsChoice
     global myTip
     global finish
-    words = open('D:\dictionary.txt').read().splitlines()
+    words = open('dictionary.txt').read().splitlines()
     wordsChoice = random.choice(words)
     wordsChoice = wordsChoice.upper()
     myTip = [" _ "]*len(wordsChoice)
